@@ -1,36 +1,25 @@
+sotra/io/digistask/repo/DataRepo_Factory.java
+ sotra.io.digistask.repo.DataRepo_Factory
+sotra/io/digistask/BuildConfig.java
+ sotra.io.digistask.BuildConfig
+sotra/io/digistask/util/ViewModelFactory_Factory.java
+ sotra.io.digistask.util.ViewModelFactory_Factory
 sotra/i/chachingdemo/MainActivity_MembersInjector.java
  sotra.i.chachingdemo.MainActivity_MembersInjector
 sotra/i/chachingdemo/ui/DataViewModel_Factory.java
  sotra.i.chachingdemo.ui.DataViewModel_Factory
-sotra/io/digistask/util/ViewModelFactory_Factory.java
- sotra.io.digistask.util.ViewModelFactory_Factory
-sotra/i/chachingdemo/di/FragmentBuildersModule_ContributeListDataFragment.java
- sotra.i.chachingdemo.di.FragmentBuildersModule_ContributeListDataFragment
- sotra.i.chachingdemo.di.FragmentBuildersModule_ContributeListDataFragment$DataListFragmentSubcomponent
- sotra.i.chachingdemo.di.FragmentBuildersModule_ContributeListDataFragment$DataListFragmentSubcomponent$Builder
-sotra/io/digistask/util/FixedSpeedScroller.java
- sotra.io.digistask.util.FixedSpeedScroller
-sotra/i/chachingdemo/ApplicationC_MembersInjector.java
- sotra.i.chachingdemo.ApplicationC_MembersInjector
-sotra/io/digistask/util/DynamicLineChartManager.java
- sotra.io.digistask.util.DynamicLineChartManager
- sotra.io.digistask.util.DynamicLineChartManager$1
- sotra.io.digistask.util.DynamicLineChartManager$2
- sotra.io.digistask.util.DynamicLineChartManager$3
-sotra/i/chachingdemo/di/MainActivityModule_ContributeMainActivity.java
- sotra.i.chachingdemo.di.MainActivityModule_ContributeMainActivity
- sotra.i.chachingdemo.di.MainActivityModule_ContributeMainActivity$MainActivitySubcomponent
- sotra.i.chachingdemo.di.MainActivityModule_ContributeMainActivity$MainActivitySubcomponent$Builder
 sotra/io/digistask/ui/ChartsFragment_MembersInjector.java
  sotra.io.digistask.ui.ChartsFragment_MembersInjector
 sotra/i/chachingdemo/di/AppModule_ProvideApiServiceFactory.java
  sotra.i.chachingdemo.di.AppModule_ProvideApiServiceFactory
-sotra/io/digistask/BuildConfig.java
- sotra.io.digistask.BuildConfig
-sotra/io/digistask/repo/DataRepo_Factory.java
- sotra.io.digistask.repo.DataRepo_Factory
+sotra/i/chachingdemo/di/FragmentBuildersModule_ContributeListDataFragment.java
+ sotra.i.chachingdemo.di.FragmentBuildersModule_ContributeListDataFragment
+ sotra.i.chachingdemo.di.FragmentBuildersModule_ContributeListDataFragment$DataListFragmentSubcomponent
+ sotra.i.chachingdemo.di.FragmentBuildersModule_ContributeListDataFragment$DataListFragmentSubcomponent$Builder
 sotra/io/digistask/ui/DataListFragment/DataListFragment_MembersInjector.java
  sotra.io.digistask.ui.DataListFragment.DataListFragment_MembersInjector
+sotra/io/digistask/util/FixedSpeedScroller.java
+ sotra.io.digistask.util.FixedSpeedScroller
 sotra/i/chachingdemo/di/FragmentBuildersModule_ContributeDataFragment.java
  sotra.i.chachingdemo.di.FragmentBuildersModule_ContributeDataFragment
  sotra.i.chachingdemo.di.FragmentBuildersModule_ContributeDataFragment$ChartsFragmentSubcomponent
@@ -47,3 +36,14 @@ sotra/i/chachingdemo/di/DaggerAppComponent.java
  sotra.i.chachingdemo.di.DaggerAppComponent$MainActivitySubcomponentImpl$ChartsFragmentSubcomponentImpl
  sotra.i.chachingdemo.di.DaggerAppComponent$MainActivitySubcomponentImpl$DataListFragmentSubcomponentBuilder
  sotra.i.chachingdemo.di.DaggerAppComponent$MainActivitySubcomponentImpl$DataListFragmentSubcomponentImpl
+sotra/i/chachingdemo/ApplicationC_MembersInjector.java
+ sotra.i.chachingdemo.ApplicationC_MembersInjector
+sotra/io/digistask/util/DynamicLineChartManager.java
+ sotra.io.digistask.util.DynamicLineChartManager
+ sotra.io.digistask.util.DynamicLineChartManager$1
+ sotra.io.digistask.util.DynamicLineChartManager$2
+ sotra.io.digistask.util.DynamicLineChartManager$3
+sotra/i/chachingdemo/di/MainActivityModule_ContributeMainActivity.java
+ sotra.i.chachingdemo.di.MainActivityModule_ContributeMainActivity
+ sotra.i.chachingdemo.di.MainActivityModule_ContributeMainActivity$MainActivitySubcomponent
+ sotra.i.chachingdemo.di.MainActivityModule_ContributeMainActivity$MainActivitySubcomponent$Builder

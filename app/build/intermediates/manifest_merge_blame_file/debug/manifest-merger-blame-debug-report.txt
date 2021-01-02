@@ -11,8 +11,8 @@
 9-->G:\20 env\Appgain\DIgisTask\app\src\main\AndroidManifest.xml
 10
 11    <uses-permission android:name="android.permission.INTERNET" />
-11-->G:\20 env\Appgain\DIgisTask\app\src\main\AndroidManifest.xml:5:5-67
-11-->G:\20 env\Appgain\DIgisTask\app\src\main\AndroidManifest.xml:5:22-64
+11-->G:\20 env\Appgain\DIgisTask\app\src\main\AndroidManifest.xml:6:5-67
+11-->G:\20 env\Appgain\DIgisTask\app\src\main\AndroidManifest.xml:6:22-64
 12
 13    <!-- Permission will be merged into the manifest of the hosting app. -->
 14    <!-- Is required to launch foreground extraction service for targetSdkVersion 28+. -->
@@ -21,11 +21,11 @@
 15-->[com.google.android.play:core:1.7.2] C:\Users\Sotra\.gradle\caches\transforms-2\files-2.1\cb1204ebfd7d38e51891d6cec7b09b0d\jetified-core-1.7.2\AndroidManifest.xml:8:20-72
 16
 17    <application
-17-->G:\20 env\Appgain\DIgisTask\app\src\main\AndroidManifest.xml:7:5-25:19
+17-->G:\20 env\Appgain\DIgisTask\app\src\main\AndroidManifest.xml:8:5-26:19
 18        android:name="sotra.i.chachingdemo.ApplicationC"
-18-->G:\20 env\Appgain\DIgisTask\app\src\main\AndroidManifest.xml:8:9-57
+18-->G:\20 env\Appgain\DIgisTask\app\src\main\AndroidManifest.xml:9:9-57
 19        android:allowBackup="true"
-19-->G:\20 env\Appgain\DIgisTask\app\src\main\AndroidManifest.xml:9:9-35
+19-->G:\20 env\Appgain\DIgisTask\app\src\main\AndroidManifest.xml:10:9-35
 20        android:appComponentFactory="androidx.core.app.CoreComponentFactory"
 20-->[androidx.core:core:1.3.2] C:\Users\Sotra\.gradle\caches\transforms-2\files-2.1\ee64c205f53f42c956b9de532d024878\core-1.3.2\AndroidManifest.xml:24:18-86
 21        android:debuggable="true"
@@ -34,75 +34,74 @@
 23        android:label="@string/app_name"
 23-->G:\20 env\Appgain\DIgisTask\app\src\main\AndroidManifest.xml:12:9-41
 24        android:networkSecurityConfig="@xml/network_security_config"
-24-->G:\20 env\Appgain\DIgisTask\app\src\main\AndroidManifest.xml:10:9-69
+24-->G:\20 env\Appgain\DIgisTask\app\src\main\AndroidManifest.xml:13:9-69
 25        android:roundIcon="@mipmap/ic_launcher_round"
-25-->G:\20 env\Appgain\DIgisTask\app\src\main\AndroidManifest.xml:13:9-54
+25-->G:\20 env\Appgain\DIgisTask\app\src\main\AndroidManifest.xml:14:9-54
 26        android:supportsRtl="true"
-26-->G:\20 env\Appgain\DIgisTask\app\src\main\AndroidManifest.xml:14:9-35
-27        android:testOnly="true"
-28        android:theme="@style/Theme.DIgisTask"
-28-->G:\20 env\Appgain\DIgisTask\app\src\main\AndroidManifest.xml:15:9-47
-29        android:usesCleartextTraffic="true" >
-29-->G:\20 env\Appgain\DIgisTask\app\src\main\AndroidManifest.xml:16:9-44
-30        <activity android:name="sotra.i.chachingdemo.MainActivity" >
-30-->G:\20 env\Appgain\DIgisTask\app\src\main\AndroidManifest.xml:18:9-24:20
-30-->G:\20 env\Appgain\DIgisTask\app\src\main\AndroidManifest.xml:18:19-67
-31            <intent-filter>
-31-->G:\20 env\Appgain\DIgisTask\app\src\main\AndroidManifest.xml:19:13-23:29
-32                <action android:name="android.intent.action.MAIN" />
-32-->G:\20 env\Appgain\DIgisTask\app\src\main\AndroidManifest.xml:20:17-69
-32-->G:\20 env\Appgain\DIgisTask\app\src\main\AndroidManifest.xml:20:25-66
-33
-34                <category android:name="android.intent.category.LAUNCHER" />
-34-->G:\20 env\Appgain\DIgisTask\app\src\main\AndroidManifest.xml:22:17-77
-34-->G:\20 env\Appgain\DIgisTask\app\src\main\AndroidManifest.xml:22:27-74
-35            </intent-filter>
-36        </activity>
-37
-38        <provider
-38-->[androidx.lifecycle:lifecycle-process:2.0.0] C:\Users\Sotra\.gradle\caches\transforms-2\files-2.1\2ee42f80ca8d0db8189db12b45b1c461\jetified-lifecycle-process-2.0.0\AndroidManifest.xml:23:9-27:43
-39            android:name="androidx.lifecycle.ProcessLifecycleOwnerInitializer"
-39-->[androidx.lifecycle:lifecycle-process:2.0.0] C:\Users\Sotra\.gradle\caches\transforms-2\files-2.1\2ee42f80ca8d0db8189db12b45b1c461\jetified-lifecycle-process-2.0.0\AndroidManifest.xml:24:13-79
-40            android:authorities="sotra.io.digistask.lifecycle-process"
-40-->[androidx.lifecycle:lifecycle-process:2.0.0] C:\Users\Sotra\.gradle\caches\transforms-2\files-2.1\2ee42f80ca8d0db8189db12b45b1c461\jetified-lifecycle-process-2.0.0\AndroidManifest.xml:25:13-69
-41            android:exported="false"
-41-->[androidx.lifecycle:lifecycle-process:2.0.0] C:\Users\Sotra\.gradle\caches\transforms-2\files-2.1\2ee42f80ca8d0db8189db12b45b1c461\jetified-lifecycle-process-2.0.0\AndroidManifest.xml:26:13-37
-42            android:multiprocess="true" /> <!-- The activities will be merged into the manifest of the hosting app. -->
-42-->[androidx.lifecycle:lifecycle-process:2.0.0] C:\Users\Sotra\.gradle\caches\transforms-2\files-2.1\2ee42f80ca8d0db8189db12b45b1c461\jetified-lifecycle-process-2.0.0\AndroidManifest.xml:27:13-40
-43        <activity
-43-->[com.google.android.play:core:1.7.2] C:\Users\Sotra\.gradle\caches\transforms-2\files-2.1\cb1204ebfd7d38e51891d6cec7b09b0d\jetified-core-1.7.2\AndroidManifest.xml:12:5-271
-44            android:name="com.google.android.play.core.missingsplits.PlayCoreMissingSplitsActivity"
-44-->[com.google.android.play:core:1.7.2] C:\Users\Sotra\.gradle\caches\transforms-2\files-2.1\cb1204ebfd7d38e51891d6cec7b09b0d\jetified-core-1.7.2\AndroidManifest.xml:12:15-102
-45            android:enabled="false"
-45-->[com.google.android.play:core:1.7.2] C:\Users\Sotra\.gradle\caches\transforms-2\files-2.1\cb1204ebfd7d38e51891d6cec7b09b0d\jetified-core-1.7.2\AndroidManifest.xml:12:103-126
-46            android:exported="false"
-46-->[com.google.android.play:core:1.7.2] C:\Users\Sotra\.gradle\caches\transforms-2\files-2.1\cb1204ebfd7d38e51891d6cec7b09b0d\jetified-core-1.7.2\AndroidManifest.xml:12:127-151
-47            android:launchMode="singleInstance"
-47-->[com.google.android.play:core:1.7.2] C:\Users\Sotra\.gradle\caches\transforms-2\files-2.1\cb1204ebfd7d38e51891d6cec7b09b0d\jetified-core-1.7.2\AndroidManifest.xml:12:204-239
-48            android:process=":playcore_missing_splits_activity"
-48-->[com.google.android.play:core:1.7.2] C:\Users\Sotra\.gradle\caches\transforms-2\files-2.1\cb1204ebfd7d38e51891d6cec7b09b0d\jetified-core-1.7.2\AndroidManifest.xml:12:152-203
-49            android:stateNotNeeded="true" />
-49-->[com.google.android.play:core:1.7.2] C:\Users\Sotra\.gradle\caches\transforms-2\files-2.1\cb1204ebfd7d38e51891d6cec7b09b0d\jetified-core-1.7.2\AndroidManifest.xml:12:240-269
-50        <activity
-50-->[com.google.android.play:core:1.7.2] C:\Users\Sotra\.gradle\caches\transforms-2\files-2.1\cb1204ebfd7d38e51891d6cec7b09b0d\jetified-core-1.7.2\AndroidManifest.xml:13:5-226
-51            android:name="com.google.android.play.core.common.PlayCoreDialogWrapperActivity"
-51-->[com.google.android.play:core:1.7.2] C:\Users\Sotra\.gradle\caches\transforms-2\files-2.1\cb1204ebfd7d38e51891d6cec7b09b0d\jetified-core-1.7.2\AndroidManifest.xml:13:15-95
-52            android:enabled="false"
-52-->[com.google.android.play:core:1.7.2] C:\Users\Sotra\.gradle\caches\transforms-2\files-2.1\cb1204ebfd7d38e51891d6cec7b09b0d\jetified-core-1.7.2\AndroidManifest.xml:13:96-119
-53            android:exported="false"
-53-->[com.google.android.play:core:1.7.2] C:\Users\Sotra\.gradle\caches\transforms-2\files-2.1\cb1204ebfd7d38e51891d6cec7b09b0d\jetified-core-1.7.2\AndroidManifest.xml:13:120-144
-54            android:stateNotNeeded="true"
-54-->[com.google.android.play:core:1.7.2] C:\Users\Sotra\.gradle\caches\transforms-2\files-2.1\cb1204ebfd7d38e51891d6cec7b09b0d\jetified-core-1.7.2\AndroidManifest.xml:13:145-174
-55            android:theme="@style/Theme.PlayCore.Transparent" /> <!-- The service will be merged into the manifest of the hosting app. -->
-55-->[com.google.android.play:core:1.7.2] C:\Users\Sotra\.gradle\caches\transforms-2\files-2.1\cb1204ebfd7d38e51891d6cec7b09b0d\jetified-core-1.7.2\AndroidManifest.xml:13:175-224
-56        <service
-56-->[com.google.android.play:core:1.7.2] C:\Users\Sotra\.gradle\caches\transforms-2\files-2.1\cb1204ebfd7d38e51891d6cec7b09b0d\jetified-core-1.7.2\AndroidManifest.xml:16:5-145
-57            android:name="com.google.android.play.core.assetpacks.AssetPackExtractionService"
-57-->[com.google.android.play:core:1.7.2] C:\Users\Sotra\.gradle\caches\transforms-2\files-2.1\cb1204ebfd7d38e51891d6cec7b09b0d\jetified-core-1.7.2\AndroidManifest.xml:16:14-95
-58            android:enabled="false"
-58-->[com.google.android.play:core:1.7.2] C:\Users\Sotra\.gradle\caches\transforms-2\files-2.1\cb1204ebfd7d38e51891d6cec7b09b0d\jetified-core-1.7.2\AndroidManifest.xml:16:96-119
-59            android:exported="true" />
-59-->[com.google.android.play:core:1.7.2] C:\Users\Sotra\.gradle\caches\transforms-2\files-2.1\cb1204ebfd7d38e51891d6cec7b09b0d\jetified-core-1.7.2\AndroidManifest.xml:16:120-143
-60    </application>
-61
-62</manifest>
+26-->G:\20 env\Appgain\DIgisTask\app\src\main\AndroidManifest.xml:15:9-35
+27        android:theme="@style/Theme.DIgisTask"
+27-->G:\20 env\Appgain\DIgisTask\app\src\main\AndroidManifest.xml:16:9-47
+28        android:usesCleartextTraffic="true" >
+28-->G:\20 env\Appgain\DIgisTask\app\src\main\AndroidManifest.xml:17:9-44
+29        <activity android:name="sotra.i.chachingdemo.MainActivity" >
+29-->G:\20 env\Appgain\DIgisTask\app\src\main\AndroidManifest.xml:19:9-25:20
+29-->G:\20 env\Appgain\DIgisTask\app\src\main\AndroidManifest.xml:19:19-67
+30            <intent-filter>
+30-->G:\20 env\Appgain\DIgisTask\app\src\main\AndroidManifest.xml:20:13-24:29
+31                <action android:name="android.intent.action.MAIN" />
+31-->G:\20 env\Appgain\DIgisTask\app\src\main\AndroidManifest.xml:21:17-69
+31-->G:\20 env\Appgain\DIgisTask\app\src\main\AndroidManifest.xml:21:25-66
+32
+33                <category android:name="android.intent.category.LAUNCHER" />
+33-->G:\20 env\Appgain\DIgisTask\app\src\main\AndroidManifest.xml:23:17-77
+33-->G:\20 env\Appgain\DIgisTask\app\src\main\AndroidManifest.xml:23:27-74
+34            </intent-filter>
+35        </activity>
+36
+37        <provider
+37-->[androidx.lifecycle:lifecycle-process:2.0.0] C:\Users\Sotra\.gradle\caches\transforms-2\files-2.1\2ee42f80ca8d0db8189db12b45b1c461\jetified-lifecycle-process-2.0.0\AndroidManifest.xml:23:9-27:43
+38            android:name="androidx.lifecycle.ProcessLifecycleOwnerInitializer"
+38-->[androidx.lifecycle:lifecycle-process:2.0.0] C:\Users\Sotra\.gradle\caches\transforms-2\files-2.1\2ee42f80ca8d0db8189db12b45b1c461\jetified-lifecycle-process-2.0.0\AndroidManifest.xml:24:13-79
+39            android:authorities="sotra.io.digistask.lifecycle-process"
+39-->[androidx.lifecycle:lifecycle-process:2.0.0] C:\Users\Sotra\.gradle\caches\transforms-2\files-2.1\2ee42f80ca8d0db8189db12b45b1c461\jetified-lifecycle-process-2.0.0\AndroidManifest.xml:25:13-69
+40            android:exported="false"
+40-->[androidx.lifecycle:lifecycle-process:2.0.0] C:\Users\Sotra\.gradle\caches\transforms-2\files-2.1\2ee42f80ca8d0db8189db12b45b1c461\jetified-lifecycle-process-2.0.0\AndroidManifest.xml:26:13-37
+41            android:multiprocess="true" /> <!-- The activities will be merged into the manifest of the hosting app. -->
+41-->[androidx.lifecycle:lifecycle-process:2.0.0] C:\Users\Sotra\.gradle\caches\transforms-2\files-2.1\2ee42f80ca8d0db8189db12b45b1c461\jetified-lifecycle-process-2.0.0\AndroidManifest.xml:27:13-40
+42        <activity
+42-->[com.google.android.play:core:1.7.2] C:\Users\Sotra\.gradle\caches\transforms-2\files-2.1\cb1204ebfd7d38e51891d6cec7b09b0d\jetified-core-1.7.2\AndroidManifest.xml:12:5-271
+43            android:name="com.google.android.play.core.missingsplits.PlayCoreMissingSplitsActivity"
+43-->[com.google.android.play:core:1.7.2] C:\Users\Sotra\.gradle\caches\transforms-2\files-2.1\cb1204ebfd7d38e51891d6cec7b09b0d\jetified-core-1.7.2\AndroidManifest.xml:12:15-102
+44            android:enabled="false"
+44-->[com.google.android.play:core:1.7.2] C:\Users\Sotra\.gradle\caches\transforms-2\files-2.1\cb1204ebfd7d38e51891d6cec7b09b0d\jetified-core-1.7.2\AndroidManifest.xml:12:103-126
+45            android:exported="false"
+45-->[com.google.android.play:core:1.7.2] C:\Users\Sotra\.gradle\caches\transforms-2\files-2.1\cb1204ebfd7d38e51891d6cec7b09b0d\jetified-core-1.7.2\AndroidManifest.xml:12:127-151
+46            android:launchMode="singleInstance"
+46-->[com.google.android.play:core:1.7.2] C:\Users\Sotra\.gradle\caches\transforms-2\files-2.1\cb1204ebfd7d38e51891d6cec7b09b0d\jetified-core-1.7.2\AndroidManifest.xml:12:204-239
+47            android:process=":playcore_missing_splits_activity"
+47-->[com.google.android.play:core:1.7.2] C:\Users\Sotra\.gradle\caches\transforms-2\files-2.1\cb1204ebfd7d38e51891d6cec7b09b0d\jetified-core-1.7.2\AndroidManifest.xml:12:152-203
+48            android:stateNotNeeded="true" />
+48-->[com.google.android.play:core:1.7.2] C:\Users\Sotra\.gradle\caches\transforms-2\files-2.1\cb1204ebfd7d38e51891d6cec7b09b0d\jetified-core-1.7.2\AndroidManifest.xml:12:240-269
+49        <activity
+49-->[com.google.android.play:core:1.7.2] C:\Users\Sotra\.gradle\caches\transforms-2\files-2.1\cb1204ebfd7d38e51891d6cec7b09b0d\jetified-core-1.7.2\AndroidManifest.xml:13:5-226
+50            android:name="com.google.android.play.core.common.PlayCoreDialogWrapperActivity"
+50-->[com.google.android.play:core:1.7.2] C:\Users\Sotra\.gradle\caches\transforms-2\files-2.1\cb1204ebfd7d38e51891d6cec7b09b0d\jetified-core-1.7.2\AndroidManifest.xml:13:15-95
+51            android:enabled="false"
+51-->[com.google.android.play:core:1.7.2] C:\Users\Sotra\.gradle\caches\transforms-2\files-2.1\cb1204ebfd7d38e51891d6cec7b09b0d\jetified-core-1.7.2\AndroidManifest.xml:13:96-119
+52            android:exported="false"
+52-->[com.google.android.play:core:1.7.2] C:\Users\Sotra\.gradle\caches\transforms-2\files-2.1\cb1204ebfd7d38e51891d6cec7b09b0d\jetified-core-1.7.2\AndroidManifest.xml:13:120-144
+53            android:stateNotNeeded="true"
+53-->[com.google.android.play:core:1.7.2] C:\Users\Sotra\.gradle\caches\transforms-2\files-2.1\cb1204ebfd7d38e51891d6cec7b09b0d\jetified-core-1.7.2\AndroidManifest.xml:13:145-174
+54            android:theme="@style/Theme.PlayCore.Transparent" /> <!-- The service will be merged into the manifest of the hosting app. -->
+54-->[com.google.android.play:core:1.7.2] C:\Users\Sotra\.gradle\caches\transforms-2\files-2.1\cb1204ebfd7d38e51891d6cec7b09b0d\jetified-core-1.7.2\AndroidManifest.xml:13:175-224
+55        <service
+55-->[com.google.android.play:core:1.7.2] C:\Users\Sotra\.gradle\caches\transforms-2\files-2.1\cb1204ebfd7d38e51891d6cec7b09b0d\jetified-core-1.7.2\AndroidManifest.xml:16:5-145
+56            android:name="com.google.android.play.core.assetpacks.AssetPackExtractionService"
+56-->[com.google.android.play:core:1.7.2] C:\Users\Sotra\.gradle\caches\transforms-2\files-2.1\cb1204ebfd7d38e51891d6cec7b09b0d\jetified-core-1.7.2\AndroidManifest.xml:16:14-95
+57            android:enabled="false"
+57-->[com.google.android.play:core:1.7.2] C:\Users\Sotra\.gradle\caches\transforms-2\files-2.1\cb1204ebfd7d38e51891d6cec7b09b0d\jetified-core-1.7.2\AndroidManifest.xml:16:96-119
+58            android:exported="true" />
+58-->[com.google.android.play:core:1.7.2] C:\Users\Sotra\.gradle\caches\transforms-2\files-2.1\cb1204ebfd7d38e51891d6cec7b09b0d\jetified-core-1.7.2\AndroidManifest.xml:16:120-143
+59    </application>
+60
+61</manifest>
