@@ -38,7 +38,7 @@ class MainActivity : AppCompatActivity(), HasSupportFragmentInjector {
         setContentView(R.layout.activity_main)
         startListing()
         setupPager()
-        getDataEvery2Sec()
+        getDataEvery2Sec(savedInstanceState)
     }
 
     private fun setupPager() {
@@ -58,7 +58,8 @@ class MainActivity : AppCompatActivity(), HasSupportFragmentInjector {
         viewModel = ViewModelProvider(this, viewModelFactory).get(DataViewModel::class.java)
         viewModel.newChild.observe(this, Observer {
             if (it is ApiResponse.NetworkError) {
-                no_internet_layout.visibility = View.VISIBLE
+                if (no_internet_layout.visibility == View.GONE)
+                    no_internet_layout.visibility = View.VISIBLE
             } else if (no_internet_layout.visibility == View.VISIBLE)
                 no_internet_layout.visibility = View.GONE
         })
@@ -66,14 +67,15 @@ class MainActivity : AppCompatActivity(), HasSupportFragmentInjector {
 
 
     @SuppressLint("CheckResult")
-    private fun getDataEvery2Sec() {
-        Observable
-                .interval(0, 2, TimeUnit.SECONDS)
-                .subscribeOn(Schedulers.io())
-                .observeOn(AndroidSchedulers.mainThread())
-                .subscribe {
-                    viewModel.fetchNewData()
-                }
+    private fun getDataEvery2Sec(savedInstanceState: Bundle?) {
+        if (savedInstanceState == null)
+            Observable
+                    .interval(0, 2, TimeUnit.SECONDS)
+                    .subscribeOn(Schedulers.io())
+                    .observeOn(AndroidSchedulers.mainThread())
+                    .subscribe {
+                        viewModel.fetchNewData()
+                    }
     }
 
 
