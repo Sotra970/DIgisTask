@@ -10,19 +10,18 @@ import androidx.lifecycle.ViewModelProvider
 import com.google.android.material.tabs.TabLayoutMediator
 import dagger.android.DispatchingAndroidInjector
 import dagger.android.support.HasSupportFragmentInjector
-import io.reactivex.Observable
-import io.reactivex.android.schedulers.AndroidSchedulers
-import io.reactivex.schedulers.Schedulers
 import kotlinx.android.synthetic.main.activity_main.*
 import kotlinx.android.synthetic.main.no_internet_layout.*
+import kotlinx.coroutines.GlobalScope
+import kotlinx.coroutines.launch
 import sotra.i.chachingdemo.api.ApiResponse
 import sotra.i.chachingdemo.ui.DataViewModel
 import sotra.io.digistask.R
 import sotra.io.digistask.ui.ChartsFragment
 import sotra.io.digistask.ui.DataListFragment.DataListFragment
 import sotra.io.digistask.util.ViewPagerAdapter
-import java.util.concurrent.TimeUnit
 import javax.inject.Inject
+import kotlin.concurrent.fixedRateTimer
 
 
 class MainActivity : AppCompatActivity(), HasSupportFragmentInjector {
@@ -69,13 +68,11 @@ class MainActivity : AppCompatActivity(), HasSupportFragmentInjector {
     @SuppressLint("CheckResult")
     private fun getDataEvery2Sec(savedInstanceState: Bundle?) {
         if (savedInstanceState == null)
-            Observable
-                    .interval(0, 2, TimeUnit.SECONDS)
-                    .subscribeOn(Schedulers.io())
-                    .observeOn(AndroidSchedulers.mainThread())
-                    .subscribe {
-                        viewModel.fetchNewData()
-                    }
+            GlobalScope.launch {
+                fixedRateTimer(period = 2000L) {
+                    viewModel.fetchNewData()
+                }
+            }
     }
 
 

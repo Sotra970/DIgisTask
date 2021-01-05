@@ -14,6 +14,7 @@ import kotlinx.android.synthetic.main.fragment_list.*
 import sotra.i.chachingdemo.api.ApiResponse
 import sotra.i.chachingdemo.ui.DataViewModel
 import sotra.io.digistask.R
+import sotra.io.digistask.util.autoCleared
 import javax.inject.Inject
 
 class DataListFragment : Fragment(), Injectable {
@@ -22,7 +23,7 @@ class DataListFragment : Fragment(), Injectable {
     lateinit var viewModelFactory: ViewModelProvider.Factory
     lateinit var viewModel: DataViewModel
 
-    private val dataListAdapter = DataListAdapter()
+    private var dataListAdapter by autoCleared<DataListAdapter>()
 
 
     override fun onCreateView(inflater: LayoutInflater, container: ViewGroup?,
@@ -38,6 +39,7 @@ class DataListFragment : Fragment(), Injectable {
     }
 
     private fun setupAdapter() {
+        dataListAdapter = DataListAdapter()
         recycler.adapter = dataListAdapter
         recycler.layoutManager = LinearLayoutManager(this.context)
     }

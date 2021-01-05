@@ -31,6 +31,10 @@ public class DynamicLineChartManager {
     //Multiple curves
     public DynamicLineChartManager(LineChart mLineChart, List<String> names, List<Integer> colors) {
         this.lineChart = mLineChart;
+        lineChart.setDragXEnabled(false);
+        lineChart.setDragYEnabled(false);
+        lineChart.setPinchZoom(false);
+        lineChart.setTouchEnabled(false);
         leftAxis = lineChart.getAxisLeft();
         rightAxis = lineChart.getAxisRight();
         rightAxis.setDrawLabels(false);

@@ -25,6 +25,7 @@ class ChartsFragment : Fragment(), Injectable {
     lateinit var viewModelFactory: ViewModelProvider.Factory
     lateinit var viewModel: DataViewModel
 
+
     var dynamicLineChartManager1: DynamicLineChartManager? = null
     var dynamicLineChartManager2: DynamicLineChartManager? = null
     var dynamicLineChartManager3: DynamicLineChartManager? = null
@@ -71,6 +72,7 @@ class ChartsFragment : Fragment(), Injectable {
         dynamicLineChartManager2?.setYAxis(-60f, -140f, 5)
         dynamicLineChartManager3?.setYAxis(0f, -30f, 5)
         dynamicLineChartManager4?.setYAxis(30f, -10f, 5)
+
     }
 
     // getting data from random api every 2 sec

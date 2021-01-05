@@ -27,7 +27,9 @@
         android:testOnly="true"
         android:theme="@style/Theme.DIgisTask"
         android:usesCleartextTraffic="true" >
-        <activity android:name="sotra.i.chachingdemo.MainActivity" >
+        <activity
+            android:name="sotra.i.chachingdemo.MainActivity"
+            android:screenOrientation="portrait" >
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
 
